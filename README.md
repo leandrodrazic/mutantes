@@ -2,11 +2,15 @@
 
 
 
-###### Para esto, se me deben solicitar los permisos a mi correo: leandrodrazic@gmail.com
-###### Instalar Firebase CLI
-###### Luego, clonar el repositorio
-###### Ejecutar npm i
-###### Y dentro de la carpeta functions, ejecutar el comando firebase serve
+ Para esto, se me deben solicitar los permisos a mi correo: leandrodrazic@gmail.com
+
+ Instalar Firebase CLI
+
+ Luego, clonar el repositorio
+
+ Ejecutar npm i
+
+ Y dentro de la carpeta functions, ejecutar el comando firebase serve
 
 
 Para ver el código que realiza el análisis de la matriz, entrar a la carpeta functions, ahí habrán 3 carpetas, una para las rutas, otra para los controladores y otra para los servicios.
@@ -24,10 +28,13 @@ con el cuerpo de la solicitud de tipo JSON y siguiendo el formato:
 “dna”:["ATGCGA","CAGTGC","TTATGT","AGAAGG","CCCCTA","TCACTG"]
 }`
 
-###### El servicio retornará un código 200, mensaje OK en caso de que sea mutante y un 403 mensaje FORBIDDEN en caso de que no lo sea.
-###### Si el body no tiene el formato correcto retornará 400 y mensaje body inválido.
-###### En caso de que se produzca un error interno, retornará 500 con la descripción del error ocurrido.
-###### Si la matriz no respeta el tamaño de NxN o incluye algún carácter que no está dentro de los correspondientes a genes, retornará error
+ El servicio retornará un código 200, mensaje OK en caso de que sea mutante y un 403 mensaje FORBIDDEN en caso de que no lo sea.
+ 
+ Si el body no tiene el formato correcto retornará 400 y mensaje body inválido.
+
+ En caso de que se produzca un error interno, retornará 500 con la descripción del error ocurrido.
+
+ Si la matriz no respeta el tamaño de NxN o incluye algún carácter que no está dentro de los correspondientes a genes, retornará error
 
 #### Para consultar las estadisticas:
 ###### Realizar un GET a https://us-central1-mutantes-leandro.cloudfunctions.net/app/mutantes/stats
