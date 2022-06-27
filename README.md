@@ -1,5 +1,7 @@
 NOTA: Puede ser ejecutado localmente solo por un usuario de Google Cloud que tenga permisos en el proyecto, debido a que está configurado para ser exportado como una función de firebase functions.
 
+
+
 Para esto, se me deben solicitar los permisos a mi correo: leandrodrazic@gmail.com
 Instalar Firebase CLI
 Luego, clonar el repositorio
