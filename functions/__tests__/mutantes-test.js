@@ -5,7 +5,8 @@ const muestras = {
   2: ["ATGCCA", "CAGTGC", "TTATGT", "AGACGG", "CCCGTA", "TCACTG"],
   3: ["TTGCGA", "CAGTCC", "TTATGT", "AGAAGG", "CCCCTA", "TCACTG"],
   4: ["ATGCGA", "CAGTGC", "TTATGT", "AGAAGG", "CCACTA", "TCACTG"],
-  5: ["ATGCGA", "CGGTAC", "TTAAGT", "AGAAGG", "CCACTA", "TCACTG"]
+  5: ["ATGCGA", "CGGTAC", "TTAAGT", "AGAAGG", "CCACTA", "TCACTG"],
+  6: ["ATGCGA", "CGGTAC", "TTAAGT", "AGAAGG", "CCACTA", "TCACTG"]
 }
 test("Consultar ADN mutante 1", () => {
   expect(mutantes.isMutant(muestras[1])).toBe(true)
