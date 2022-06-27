@@ -9,7 +9,8 @@ Ejecutar npm i
 Y dentro de la carpeta functions, ejecutar el comando firebase serve
 
 
-
+Para ver el código que realiza el análisis de la matriz, entrar a la carpeta functions, ahí habrán 3 carpetas, una para las rutas, otra para los controladores y otra para los servicios.
+En la de los servicios está el archivo con los métodos que analizan la matriz.
 
 
 La API está hosteada en Serverless Functions de Google Cloud, la base de datos utilizada para registrar las consultas fue Firestore.
